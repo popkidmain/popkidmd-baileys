@@ -1,0 +1,35 @@
+{
+  "name": "popkidmd-baileys",
+  "version": "1.0.0",
+  "description": "Powerful WhatsApp Web API library built on Baileys with full support for buttons, lists, interactive messages, groups, polls, reactions, media, presence and the latest WhatsApp updates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/bot.js",
+    "dev": "ts-node examples/bot.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "whatsapp", "whatsapp-web", "baileys", "popkidmd", "popkid",
+    "whatsapp-bot", "buttons", "interactive", "groups", "polls", "md", "multi-device"
+  ],
+  "author": "Popkid",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/popkidmain/popkidmd-baileys.git" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" }
+}

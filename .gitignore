@@ -1,0 +1,7 @@
+node_modules/
+dist/
+session/
+popkid_session/
+*.log
+.env
+.DS_Store
