@@ -1,11 +1,30 @@
 {
   "name": "@popkidmd/popkidmd-baileys",
   "version": "1.4.0",
-  "description": "WhatsApp Web API library",
-  "main": "dist/index.js",
+  "description": "Powerful WhatsApp Web API library by Popkid",
+  "main": "index.js",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "popkid"
+  ],
   "author": "Popkid",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popkidmain/popkidmd-baileys.git"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cache": "^5.1.2"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
 }
